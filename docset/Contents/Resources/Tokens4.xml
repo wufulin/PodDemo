@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ViewController</TokenIdentifier>
+			<Abstract type="html">This view controller is the main controller of this application</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setName:</TokenIdentifier>
+			<Abstract type="html">Documenting a property</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/name</TokenIdentifier>
+			<Abstract type="html">Documenting a property</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/initializeWithName:</TokenIdentifier>
+			<Abstract type="html">Documenting an instance method</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>			
+			
+			<Declaration>- (id)initializeWithName:(NSString *)name</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">The name of the class</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Returns a named instance of ViewController</Abstract></ReturnValue>
+			<Anchor>//api/name/initializeWithName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ViewController/create</TokenIdentifier>
+			<Abstract type="html">Documenting a class method</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>			
+			
+			<Declaration>+ (ViewController *)create</Declaration>
+			
+			
+			<Anchor>//api/name/create</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Person.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Person</TokenIdentifier>
+			<Abstract type="html">This is a Person Model</Abstract>
+			<DeclaredIn>Person.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

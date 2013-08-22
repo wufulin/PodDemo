@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Car.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Car</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Car.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Car/setOdometer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Car.h</DeclaredIn>			
+			
+			<Declaration>@property double odometer</Declaration>
+			
+			
+			<Anchor>//api/name/odometer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Car/odometer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Car.h</DeclaredIn>			
+			
+			<Declaration>@property double odometer</Declaration>
+			
+			
+			<Anchor>//api/name/odometer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Car/driveForDuration:withVariableSpeed:steps:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Car.h</DeclaredIn>			
+			
+			<Declaration>- (void)driveForDuration:(double)duration withVariableSpeed:(double ( ^ ) ( double time ))speedFunction steps:(int)numStep</Declaration>
+			
+			
+			<Anchor>//api/name/driveForDuration:withVariableSpeed:steps:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

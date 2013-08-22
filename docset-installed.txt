@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/wufulin/Library/Developer/Shared/Documentation/DocSets/com.netease.vip.PodDemo.docset
+Time: 2013-08-21 09:58:48 +0000
