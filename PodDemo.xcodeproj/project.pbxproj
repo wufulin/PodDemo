@@ -38,6 +38,7 @@
 		69845CA117B345ED001A0D07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69845C9F17B345ED001A0D07 /* InfoPlist.strings */; };
 		69845CA417B345ED001A0D07 /* PodDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69845CA317B345ED001A0D07 /* PodDemoTests.m */; };
 		69845CB617B37E37001A0D07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69845CB517B37E37001A0D07 /* ViewController.m */; };
+		69B0542317CB02A8003A5CF5 /* MyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B0542217CB02A8003A5CF5 /* MyOperation.m */; };
 		D3F6417DD6E0467FA99944D9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B403071F3F3848448B699727 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,8 @@
 		69845CB217B37BFF001A0D07 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		69845CB417B37E37001A0D07 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		69845CB517B37E37001A0D07 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69B0542117CB02A8003A5CF5 /* MyOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOperation.h; sourceTree = "<group>"; };
+		69B0542217CB02A8003A5CF5 /* MyOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOperation.m; sourceTree = "<group>"; };
 		B403071F3F3848448B699727 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,6 +126,8 @@
 				6956383317B384E400D1B9F8 /* Person.m */,
 				6907090817C4C3D4004788A9 /* Car.h */,
 				6907090917C4C3D4004788A9 /* Car.m */,
+				69B0542117CB02A8003A5CF5 /* MyOperation.h */,
+				69B0542217CB02A8003A5CF5 /* MyOperation.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -131,9 +136,9 @@
 			isa = PBXGroup;
 			children = (
 				69845CB217B37BFF001A0D07 /* README.md */,
-				69845C7E17B345EC001A0D07 /* PodDemo */,
 				69845C8717B345EC001A0D07 /* VIPAppDelegate.h */,
 				69845C8817B345EC001A0D07 /* VIPAppDelegate.m */,
+				69845C7E17B345EC001A0D07 /* PodDemo */,
 				69845C9C17B345ED001A0D07 /* PodDemoTests */,
 				69845C7717B345EC001A0D07 /* Frameworks */,
 				69845C7617B345EC001A0D07 /* Products */,
@@ -366,6 +371,7 @@
 				69845CB617B37E37001A0D07 /* ViewController.m in Sources */,
 				6956383417B384E400D1B9F8 /* Person.m in Sources */,
 				6907090A17C4C3D4004788A9 /* Car.m in Sources */,
+				69B0542317CB02A8003A5CF5 /* MyOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
