@@ -37,5 +37,5 @@
 - (id)initializeWithName:(NSString *)name;
 
 /** Documenting a class method */
-+(ViewController *)create;
++ (ViewController *)create;
 @end
